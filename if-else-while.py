@@ -8,7 +8,7 @@ studentRecords = [["Pimento", "Olive" , 2.89] , ["Manage" , "Micro" , 3.54] , ["
 
 studentLastNames = ["pimento" , "manage" , "feast" , "carbuncle" , "jones"]
 
-testName = ["Manage" , "Micro" , 3.54]
+#testName = ["Manage" , "Micro" , 3.54]
 
 def checkGPA():
     
@@ -76,7 +76,7 @@ def checkFullName(lastName, firstName):
     
     for student in studentRecords:
         
-        if studentRecords[0] == lastName and studentRecords[1] == firstName:
+        if student[0] == lastName and student[1] == firstName:
             
             return studentRecords[2]
         
