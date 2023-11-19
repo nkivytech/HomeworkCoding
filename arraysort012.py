@@ -7,21 +7,27 @@ Created on Tue Nov 14 14:37:05 2023
 
 import random
 
-n =  random.randrange(1 , 5)
-        
-arr = []
-        
-count = 0
-        
-while count <= n:
-            
-    arr.append(random.randrange(0 , 3))
-            
-    count += 1
-        
-arr = sorted(arr)
-        
-print(arr)
+class Solution():
     
+    def sort012(self):
+        
+        self.n =  random.randrange(1 , 6)
+        
+        self.arr = []
+        
+        self.count = 0
+        
+        while self.count <= self.n:
+            
+            self.arr.append(random.randrange(0 , 3))
+            
+            self.count += 1
+        
+        self.arr = sorted(self.arr)
+        
+        print(self.arr)
+    
+Solution()
+
 
 
